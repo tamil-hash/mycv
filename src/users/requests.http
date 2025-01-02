@@ -1,0 +1,16 @@
+### signin user
+
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+  "email": "fff@ggg.com",
+  "password": "1234"
+}
+
+### find user
+
+GET http://localhost:3000/auth/whoami
+
+### signout user
+POST http://localhost:3000/auth/signout
